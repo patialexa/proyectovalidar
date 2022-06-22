@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h3>SELECCIONE EL PRODUCTO Y LA CANTIDAD A COMPRAR</h3><br>
+        <form action="procesar.php" method="post"> 
+
+            <select name="lstProductos">
+                <option value="Arroz">Arroz</option>
+                <option value="Leche">Leche</option>
+                <option value="Azucar">Azúcar</option>
+                <option value="Yogurt">Yogurt</option>
+            </select>
+
+            <select name="lstCantidad">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+
+            <input type="submit" value="Enviar" name="accion" />   
+        </form>
+    </body>
+</html>

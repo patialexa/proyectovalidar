@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            input[type=text], input[type=submit] {
+                text-align: center;
+                border-radius: 10px;
+                border: 2px solid blue;
+            }
+            
+        </style>
+    </head>
+    <body>
+    <center>
+        <h3>OPERACION ARITMETICA</h3>
+        <form action="aritmetica.php" method="POST">
+            <input type="text" name="txtNumero1" value="" placeholder="Número 1" />
+            <input type="text" name="txtNumero2" value="" placeholder="Número 2" />
+             <input type="text" name="txtNumero2" value="" placeholder="Resultado" readonly /><br>
+            
+             
+             <input type="radio" name="radOperacion" value="+" />Sumar
+            <input type="radio" name="radOperacion" value="-" />Restar
+            <input type="radio" name="radOperacion" value="*" />Multiplicar
+            <input type="radio" name="radOperacion" value="/" />Dividir
+            <br><br>
+            <input type="submit" value="Enviar" name="accion" />
+        </form>
+    </center>
+    </body>
+</html>
+
